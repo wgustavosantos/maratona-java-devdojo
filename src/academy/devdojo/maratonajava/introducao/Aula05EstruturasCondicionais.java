@@ -3,16 +3,16 @@ package academy.devdojo.maratonajava.introducao;
 public class Aula05EstruturasCondicionais {
     public static void main(String[] args) {
 
-        boolean isAutorizado = true;
+        int idade = 15;
+        String categoria = null;
 
-        if (!isAutorizado){
-            System.out.println("Está autorizado");
-        } else if ((!isAutorizado) == false){
-            System.out.println("Dentro do else if");
+        if(idade < 12){
+            categoria = "Juvenil";
+        } else if (idade > 18) {
+            categoria = "Adulto";
         }
-        else{
-            System.out.println("Invalido");
-        }
+        
+        System.out.println(categoria);
 
     }
 }
