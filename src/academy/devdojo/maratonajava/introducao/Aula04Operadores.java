@@ -24,5 +24,8 @@ public class Aula04Operadores {
         float salario = 1200.00F;
         boolean isDentroDaLeiMaiorQueTreina = idade > 30 && salario > 4612;
 
+        boolean isUmouOutro = 16 > 30 || 16 < 30;
+        System.out.println("Ou um outro outro pode ser falso " + isUmouOutro);
+
     }
 }
