@@ -14,7 +14,9 @@ public class Aula02TiposPrimitivos {
         boolean falso = false;
         char caractere = 87; // Tabela ASC 87 é W
 
+        String nome = "Wenderson Gustavo Silva dos Santos";
 
         System.out.println(caractere);
+        System.out.println(nome);
     }
 }
