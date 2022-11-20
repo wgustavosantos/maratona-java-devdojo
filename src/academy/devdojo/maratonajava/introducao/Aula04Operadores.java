@@ -18,5 +18,11 @@ public class Aula04Operadores {
 
         // sempre retorna booleano < > <= >= == !=
 
+        //&& (AND) || (OR)
+
+        int idade = 35;
+        float salario = 1200.00F;
+        boolean isDentroDaLeiMaiorQueTreina = idade > 30 && salario > 4612;
+
     }
 }
