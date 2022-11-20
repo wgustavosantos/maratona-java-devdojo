@@ -27,5 +27,23 @@ public class Aula04Operadores {
         boolean isUmouOutro = 16 > 30 || 16 < 30;
         System.out.println("Ou um outro outro pode ser falso " + isUmouOutro);
 
+        // = += -= /= %=
+
+        double bonus = 1800;
+        bonus += 200;
+        bonus -= 200;
+        bonus /= 200;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        // Operadores unários
+
+
+        for(int i = 0; i < 5; i++){
+            System.out.println(i);
+        }
+
+
+
     }
 }
