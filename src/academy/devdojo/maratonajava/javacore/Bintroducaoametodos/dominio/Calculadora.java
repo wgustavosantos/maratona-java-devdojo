@@ -10,4 +10,8 @@ public class Calculadora {
         System.out.println(a*b);
     }
 
+    public float divideDoisNumeros(float a, float b) {
+        return a/b;
+    }
+
 }
