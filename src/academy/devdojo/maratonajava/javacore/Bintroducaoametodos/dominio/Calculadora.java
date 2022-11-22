@@ -1,5 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Bintroducaoametodos.dominio;
 
+import java.util.ArrayList;
+
 public class Calculadora {
 
     public void somaDoisNumeros(){
@@ -17,6 +19,15 @@ public class Calculadora {
     public void alteraDoisNumeros (int n1, int n2){
         n1 = 99;
         n2 = -99;
+    }
+
+    public void somaNumeros(int... numeros){
+
+        int total = 0;
+        for (int numero:numeros) {
+            total += numero;
+        }
+        System.out.println(total);
     }
 
 }
