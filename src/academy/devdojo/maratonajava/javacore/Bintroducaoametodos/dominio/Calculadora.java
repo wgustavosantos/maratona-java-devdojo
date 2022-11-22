@@ -14,4 +14,9 @@ public class Calculadora {
         return a/b;
     }
 
+    public void alteraDoisNumeros (int n1, int n2){
+        n1 = 99;
+        n2 = -99;
+    }
+
 }
