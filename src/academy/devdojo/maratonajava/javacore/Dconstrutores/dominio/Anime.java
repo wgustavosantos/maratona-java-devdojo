@@ -5,15 +5,19 @@ public class Anime {
     private int episodios;
     private String nome;
     private String genero;
+    private String estudio;
 
-    public Anime() {
-    }
 
     public Anime(String tipo, int episodios, String nome, String genero) {
         this.tipo = tipo;
         this.episodios = episodios;
         this.nome = nome;
         this.genero = genero;
+    }
+
+    public Anime(String tipo, int episodios, String nome, String genero, String estudio) {
+        this(tipo, episodios, nome, genero);
+        this.estudio = estudio;
     }
 
     public String getTipo() {
