@@ -4,6 +4,8 @@ import academy.devdojo.maratonajava.javacore.Fmodificadorestatico.dominio.Carro;
 
 public class CarroTest01 {
     public static void main(String[] args) {
+
+        Carro.setVelocidadeLimite(590);
         Carro c1 = new Carro("BMW", 280);
         Carro c2 = new Carro("Merces ", 280);
         Carro c3 = new Carro("BMW", 280);
