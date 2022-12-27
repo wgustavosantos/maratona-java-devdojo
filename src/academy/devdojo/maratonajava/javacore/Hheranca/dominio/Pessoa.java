@@ -29,12 +29,13 @@ public class Pessoa {
         Endereco = endereco;
     }
 
-    @Override
-    public String toString() {
-        return "Pessoa{" +
+    public void imprime() {
+
+        System.out.println("Pessoa{" +
                 "nome='" + nome + '\'' +
                 ", cpf='" + cpf + '\'' +
                 ", Endereco=" + Endereco +
-                '}';
+                '}');
+
     }
 }

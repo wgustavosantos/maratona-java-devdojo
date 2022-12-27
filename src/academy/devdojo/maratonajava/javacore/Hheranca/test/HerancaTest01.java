@@ -25,5 +25,8 @@ public class HerancaTest01 {
         funcionario.setCpf("07082012233");
         funcionario.setNome("Gabi");
         funcionario.setEndereco(endereco2);
+
+        pessoa.imprime();
+        funcionario.imprime();
     }
 }
