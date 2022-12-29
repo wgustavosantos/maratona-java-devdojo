@@ -5,6 +5,8 @@ public class Cliente {
     private String nome;
     private TipoCliente tipoCliente;
 
+    private TipoPagamento tipoPagamento;
+
     public Cliente(String nome, TipoCliente tipoCliente) {
         this.nome = nome;
         this.tipoCliente = tipoCliente;
@@ -26,6 +28,14 @@ public class Cliente {
         this.tipoCliente = tipoCliente;
     }
 
+    public TipoPagamento getTipoPagamento() {
+        return tipoPagamento;
+    }
+
+    public void setTipoPagamento(TipoPagamento tipoPagamento) {
+        this.tipoPagamento = tipoPagamento;
+    }
+
     @Override
     public String toString() {
         return "Cliente{" +
@@ -34,4 +44,5 @@ public class Cliente {
                 ", tipoClienteInt=" + tipoCliente.getValor() +
                 '}';
     }
+
 }
