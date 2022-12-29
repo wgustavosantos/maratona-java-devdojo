@@ -25,4 +25,13 @@ public class Cliente {
     public void setTipoCliente(TipoCliente tipoCliente) {
         this.tipoCliente = tipoCliente;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "nome='" + nome + '\'' +
+                ", tipoCliente=" + tipoCliente.getNomeRelatorio() +
+                ", tipoClienteInt=" + tipoCliente.getValor() +
+                '}';
+    }
 }
