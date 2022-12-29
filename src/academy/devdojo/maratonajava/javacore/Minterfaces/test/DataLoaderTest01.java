@@ -10,5 +10,6 @@ public class DataLoaderTest01 {
 
         fileloader.load();
         databaseLoader.load();
+        fileloader.checkPermission();
     }
 }
