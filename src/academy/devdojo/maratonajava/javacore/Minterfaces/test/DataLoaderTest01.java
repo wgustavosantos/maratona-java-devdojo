@@ -7,7 +7,7 @@ public class DataLoaderTest01 {
     public static void main(String[] args) {
         DatabaseLoader databaseLoader = new DatabaseLoader();
         Fileloader fileloader = new Fileloader();
-
+ 
         fileloader.load();
         databaseLoader.load();
         fileloader.checkPermission();
