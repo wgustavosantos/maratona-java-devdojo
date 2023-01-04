@@ -5,12 +5,14 @@ public class WrapperTest01 {
 
         Byte Wbyte = 127;
         Short WShort = 1;
-        Integer WInteger = 1;
+        Integer WInteger = 1; //autoboxing
         Long WLong = 1000L;
         Float WFloat = 10F;
         Double WDouble = 10D;
         Character WChar = 'W';
         Boolean WBoolean = true;
+
+        int i = WInteger; // unboxing
 
     }
 }
