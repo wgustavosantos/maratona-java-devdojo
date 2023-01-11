@@ -16,6 +16,6 @@ public class TemporalAdjustersTest01 {
 
         LocalDate now2 = LocalDate.now();
 
-        now2 = now2.
+
     }
 }
