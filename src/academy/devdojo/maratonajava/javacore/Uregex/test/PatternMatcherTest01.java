@@ -5,8 +5,8 @@ import java.util.regex.Pattern;
 
 public class PatternMatcherTest01 {
     public static void main(String[] args) {
-        String regex = "aba";
-        String texto = "abababa";
+        String regex = "cor";
+        String texto = "mouse de cor azul cor preta e cor branca";
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);

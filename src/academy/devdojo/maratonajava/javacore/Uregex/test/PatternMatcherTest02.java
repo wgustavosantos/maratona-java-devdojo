@@ -11,6 +11,7 @@ public class PatternMatcherTest02 {
         // \s contrabarra s recupera todos os espaços em branco \t \s \f \r
         // \S contrabarra S recupera tudo sem espaço em branco \t \s \f \r
         // \w contrabarra w recupera tudo de a-A-z-Z, dígitos tirando especiais
+        // \W contrabarra W recupera tudo que não está incluso em \w
 
         String regex = "aba";
         String texto = "abababa";
@@ -25,7 +26,7 @@ public class PatternMatcherTest02 {
         String texto6 = "@hj75 jkjk\t89";
         String regex6 = "\\w";
         String texto7 = "@hj75 jkjk\t89";
-        String regex7 = "\\W";
+        String regex7 = "\\w";
 
 
         Pattern pattern = Pattern.compile(regex7);
