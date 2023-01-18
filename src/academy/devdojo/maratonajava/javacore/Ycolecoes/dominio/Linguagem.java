@@ -2,14 +2,16 @@ package academy.devdojo.maratonajava.javacore.Ycolecoes.dominio;
 
 import java.util.Objects;
 
-public class Linguagens {
+public class Linguagem implements Comparable<Linguagem> {
     private Long id;
-    private String a;
+    private String nome;
     private double salario;
 
-    public Linguagens(Long id, String a, double salario) {
+    public Linguagem(Long id, String nome, double salario) {
+        Objects.requireNonNull(nome, "atributo nome nulo.");
+        Objects.requireNonNull(salario, "atributo salario nulo.");
         this.id = id;
-        this.a = a;
+        this.nome = nome;
         this.salario = salario;
     }
 
@@ -21,12 +23,12 @@ public class Linguagens {
         this.id = id;
     }
 
-    public String getA() {
-        return a;
+    public String getNome() {
+        return nome;
     }
 
-    public void setA(String a) {
-        this.a = a;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public double getSalario() {
@@ -41,7 +43,7 @@ public class Linguagens {
     public String toString() {
         return "Linguagens{" +
                 "id=" + id +
-                ", a='" + a + '\'' +
+                ", a='" + nome + '\'' +
                 ", salario=" + salario +
                 '}';
     }
@@ -50,12 +52,29 @@ public class Linguagens {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Linguagens that = (Linguagens) o;
+        Linguagem that = (Linguagem) o;
         return id.equals(that.id);
     }
 
     @Override
     public int hashCode() {
         return Objects.hash(id);
+    }
+
+    @Override
+    public int compareTo(Linguagem o) {
+        // if(this < 0) return negative
+        // if(this == o) return zero
+        // if(this > o) return positive
+
+        // refatorando
+//        if(this.id < o.getId())
+//            return -1;
+//        else if (this.id > o.getId())
+//            return 1;
+//        else
+//            return 0;
+
+        return this.id.compareTo(o.getId());
     }
 }
