@@ -6,6 +6,7 @@ public class Linguagem implements Comparable<Linguagem> {
     private Long id;
     private String nome;
     private double salario;
+    private int ano;
 
     public Linguagem(Long id, String nome, double salario) {
         Objects.requireNonNull(nome, "atributo nome nulo.");
@@ -14,6 +15,12 @@ public class Linguagem implements Comparable<Linguagem> {
         this.nome = nome;
         this.salario = salario;
     }
+
+    public Linguagem(Long id, String nome, double salario, int ano) {
+        this(id, nome, salario);
+        this.ano = ano;
+    }
+
 
     public Long getId() {
         return id;
@@ -37,6 +44,14 @@ public class Linguagem implements Comparable<Linguagem> {
 
     public void setSalario(double salario) {
         this.salario = salario;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
     }
 
     @Override
