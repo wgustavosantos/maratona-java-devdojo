@@ -12,7 +12,7 @@ public class BarcoRentavelService {
             new Barco("Canoa")
     ));
 
-    public Barco buscarCarroDisponivel(){
+    public Barco buscarBarcoDisponivel(){
         System.out.println("*---------------------*");
         System.out.println("Buscando Barco disponivel...");
         Barco b = barcosDisponiveis.remove(0);
@@ -24,7 +24,7 @@ public class BarcoRentavelService {
         return b;
     }
 
-    public void retornarCarroAlugado(Barco Barco){
+    public void retornarBarcoAlugado(Barco Barco){
         System.out.println("*---------------------*");
         System.out.println("Devolvendo Barco alugado :" + Barco);
         barcosDisponiveis.add(Barco);

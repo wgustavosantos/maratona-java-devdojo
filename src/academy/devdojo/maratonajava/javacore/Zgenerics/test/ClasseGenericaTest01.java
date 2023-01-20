@@ -6,7 +6,7 @@ import academy.devdojo.maratonajava.javacore.Zgenerics.service.CarroRentavelServ
 public class ClasseGenericaTest01 {
     public static void main(String[] args) {
         CarroRentavelService carroRentavelService = new CarroRentavelService();
-        Carro carro = carroRentavelService.buscarCarroDisponivel();
+        Carro carro = carroRentavelService.buscarBarcoDisponivel();
         System.out.println("Usando carro por um mês...");
         carroRentavelService.retornarCarroAlugado(carro);
     }

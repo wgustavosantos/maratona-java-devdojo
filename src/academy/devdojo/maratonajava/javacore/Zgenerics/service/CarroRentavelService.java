@@ -12,7 +12,7 @@ public class CarroRentavelService {
             new Carro("Fusca")
     ));
 
-    public Carro buscarCarroDisponivel(){
+    public Carro buscarBarcoDisponivel(){
         System.out.println("*---------------------*");
         System.out.println("Buscando carro disponivel...");
         Carro c = carrosDisponiveis.remove(0);
