@@ -1,0 +1,114 @@
+[33m5f64435[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m 187 - Generics pt 05 - Classes Genéricas pt 02
+[33m33ee95b[m 186 - Generics pt 04 - Classes Genéricas pt 01
+[33m7b03636[m 185 - Generics pt 03 - Wildcard pt 02
+[33m3c46d6d[m 184 - Generics pt 02 - Wildcard pt 01
+[33mb6d8f69[m 183 - Generics pt 01 - Introdução
+[33m267c023[m 182 - Coleções pt 22 - Queue, PriorityQueue
+[33mf18b0e2[m 181 - Coleções pt 21 - NavigableMap, TreeMap
+[33m55bf266[m 180 - Coleções pt 20 - Map, HashMap, LinkedHashMap pt 03
+[33m6faffdd[m 179 - Coleções pt 19 - Map, HashMap, LinkedHashMap pt 02
+[33m9403da1[m 178 - Coleções pt 18 - Map, HashMap, LinkedHashMap pt 01
+[33m1a54b7f[m 175 - Coleções pt 15 - Set, HashSet
+[33mcf280bd[m 174 - Coleções pt 14 - Iterator
+[33me5e105a[m 173 - Coleções pt 13 - Conversão de Lista para Arrays e vice versa
+[33md63f6f5[m 172 - Coleções pt 12 - Binary Search
+[33m1f6643e[m 171 - Coleções pt 11 - Sorting lists pt 03 - Comparator
+[33mf046d53[m 170 - Coleções pt 10 - Sorting lists pt 02 - Comparable
+[33m556e253[m 169 - Coleções pt 09 - Sorting lists pt 01
+[33m9707f01[m 168 - Coleções pt 08 - List pt 03
+[33mb2f46dc[m 167 - Coleções pt 07 - List pt 02
+[33mb31eda2[m 166 - Coleções pt 06 - List pt 01
+[33me58c9a6[m 161 - Coleções pt 01 - equals pt 01
+[33md0b44c9[m 160 - Classes Utilitárias - Serialization pt 02
+[33m5b04e6b[m 159 - Classes Utilitárias - Serialization pt 01
+[33m44b2f3e[m 145 - Classes Utilitárias - NIO pt 02 - Path, Paths, Files pt 02
+[33m6847bb7[m 144 - Classes Utilitárias - NIO pt 01 - Path, Paths, Files pt 01
+[33mc3806d6[m 143 - Classes Utilitárias - IO pt 06 - File para diretórios
+[33mda95de3[m 142 - Classes Utilitárias - IO pt 05 - BufferedReader
+[33m866d096[m 141 - Classes Utilitárias - IO pt 04 - BufferedWriter
+[33m7b2132a[m 140 - Classes Utilitárias - IO pt 03 - FileReader
+[33m2811f3d[m[33m ([m[1;31morigin/main[m[33m)[m 139 - Classes Utilitárias - IO pt 02 - FileWriter
+[33mfab79e4[m 138 - Classes Utilitárias - IO pt 01 - File
+[33m7e1b45f[m 137 - Classes Utilitárias - Scanner - Tokens e Delimitadores
+[33m7dc420f[m 134 - Classes Utilitárias - Regex pt 04 - Pattern e Matcher - Quantificadores pt 01
+[33m72e34f7[m 132 - Classes Utilitárias - Regex pt 02 - Pattern e Matcher - Meta caracteres
+[33mc516f19[m 132 - Classes Utilitárias - Regex pt 02 - Pattern e Matcher - Meta caracteres
+[33me9baf90[m 131 - Classes Utilitárias - Regex pt 01 - Pattern e Matcher
+[33m07a6218[m 130 - Classes Utilitárias - ResourceBundle
+[33ma8de98f[m 129 - Classes Utilitárias - DateTimeFormatter
+[33m4808519[m 127 - Classes Utilitárias - TemporalAdjuster
+[33mfc463fd[m 126 - Classes Utilitárias - TemporalAdjusters.
+[33m06d7b00[m 125 - Classes Utilitárias - ChronoUnit
+[33ma2cbd9a[m 124 - Classes Utilitárias - Period
+[33mfa030e9[m 123 - Classes Utilitárias - Duration
+[33m3337299[m 122 - Classes Utilitárias - Instant
+[33m4f2a84a[m 120 - Classes Utilitárias - LocalTime
+[33meb07841[m 119 - Classes Utilitárias - LocalDate
+[33m713ea4c[m 118 - Classes Utilitárias - SimpleDateFormat
+[33m9d43169[m 117 - Classes Utilitárias - Internacionalização de moeda com Locale
+[33m525695b[m 116 - Classes Utilitárias - Internacionalização Números com Locale
+[33m4624057[m 115 - Classes Utilitárias - Internacionalização Datas com Locale
+[33m3acd714[m 114 - Classes Utilitárias - DateFormat
+[33m2f341f1[m 113 - Classes Utilitárias - Calendar
+[33mb178dca[m 112 - Classes Utilitárias - Date
+[33m55b1d69[m 111 - Classes Utilitárias - Strings pt 04 - StringBuilder
+[33m84b6bf6[m 110 - Classes Utilitárias - Strings pt 03 - Desempenho
+[33md94156c[m 107 - Classes Utilitárias - Wrappers pt 02
+[33m927e72a[m 106 - Classes Utilitárias - Wrappers pt 01
+[33md20bf4e[m 100 - Exceções pt 06 - Bloco Finally
+[33m4a81db7[m 98 - Exceções pt 04 - Lançando exceção unchecked
+[33mcc5b1a1[m 97 - Exceções pt 03 - Exception
+[33ma3c44f6[m 96 - Exceções pt 02 - RuntimeException
+[33m5625a7a[m 95 - Exceções pt 01 - Errors
+[33meaa42cb[m 92 - Orientação Objetos - Polimorfismo pt 03 - Parâmetros polimórficos
+[33mfe6d4f7[m 91 - Orientação Objetos - Polimorfismo pt 02 - Funcionamento
+[33mc22e9eb[m 90 - Orientação Objetos - Polimorfismo pt 01 - Introdução
+[33m625aa4c[m 89 - Orientação Objetos - Interfaces pt 03 - Atributos e métodos estáticos
+[33m92ed27e[m 88 - Orientação Objetos - Interfaces pt 02 - Implementando múltiplas interfaces
+[33m758f98d[m 87 - Orientação Objetos - Interfaces pt 01 - Introdução
+[33m6315341[m 86 - Orientação Objetos - Classes abstratas pt 03 - Métodos abstratos regras
+[33m691c33a[m 85 - Orientação Objetos - Classes abstratas pt 02 - Métodos abstratos
+[33me207635[m 84 - Orientação Objetos - Classes abstratas pt 01
+[33m1b1ae09[m 83 - Orientação Objetos - Enumeração pt 04 - Busca por atributos
+[33m9dc408b[m 82 - Orientação Objetos - Enumeração pt 03 - Sobrescrita de métodos
+[33m97d5509[m 81 - Orientação Objetos - Enumeração pt 02 - Construtores e atributos
+[33meb7baf2[m 80 - Orientação Objetos - Enumeração pt 01 - Introdução
+[33m3c13f10[m 77 - Orientação Objetos - Modificador final pt 01, 02 e 03
+[33m5a90cec[m 76 - Orientação Objetos - Sobrescrita do método toString
+[33m17ed67c[m 71 - Orientação Objetos - Herança pt 01
+[33m5e00916[m 66 - Orientação Objetos - Associação pt 03 - Associação unidirecional muitos para um
+[33m12d6425[m 65 - Orientação Objetos - Associação pt 02 - Associação unidirecional um para muitos
+[33mc15ef51[m 64 - Orientação Objetos - Associação pt 01 - Arrays com Objetos
+[33m03d178a[m 63 - Orientação Objetos - Bloco de inicialização estático
+[33m4016081[m 62 - Orientação Objetos - Métodos estáticos
+[33mb93be7d[m 61 - Orientação Objetos - Modificador static
+[33m178b3eb[m 60 - Orientação Objetos - Blocos de inicialização
+[33m92bafe1[m 59 - Orientação Objetos - Construtores pt 02 - Sobrecarga
+[33m6d6922e[m 58 - Orientação Objetos - Construtores pt 01
+[33m276988f[m 57 - Orientação Objetos - Sobrecarga de métodos
+[33m067444f[m 54 - Orientação Objetos - Modificador de acesso private, get e set pt 01
+[33mfd80db5[m 52 - Orientação Objetos - Métodos pt 09 - Varargs
+[33m47a1b92[m 49 - Orientação Objetos - Métodos pt 06 - Parâmetros tipo referência
+[33m5b572aa[m 48 - Orientação Objetos - Métodos pt 05 - Parâmetros tipo primitivo
+[33mbaf21c7[m 46 - Orientação Objetos - Métodos pt 03 - Retorno pt 01
+[33md4c1bf3[m 45 - Orientação Objetos - Métodos pt 02 - Parâmetros
+[33ma2ec45c[m 44 - Orientação Objetos - Métodos pt 01
+[33m4ab66a7[m 43 - Orientação Objetos - Referência de objetos
+[33mf396ef1[m 41 - Orientação Objetos - Coesão
+[33m1ad12f0[m 40 - Orientação Objetos - Introdução classes pt 02
+[33m1796aeb[m 39 - Orientação Objetos pt 01 - Introdução classes pt 01
+[33m91aa4de[m 22 - Estruturas Condicionais pt 03 - Operador ternário
+[33m1058a68[m 21 - Estruturas Condicionais pt 02 - ELSE IF
+[33m6ce42bd[m 20 - Estruturas Condicionais pt 01 - IF
+[33mceb1b21[m 19 - Operadores pt 05 - Atribuição
+[33m4bfa8cd[m 18 - Operadores pt 04 - Lógicos OR
+[33mcdf9575[m 17 - Operadores pt 03 - Lógicos AND
+[33m9208dc8[m 16 - Operadores pt 02 - Relacionais
+[33m00207b4[m 15 - Operadores pt 01 - Aritiméticos
+[33m169cb84[m 14 - Tipos primitivos pt 05 - Exercício
+[33m2fb303c[m 13 - Tipos primitivos pt 04 - Strings
+[33m8b3405a[m 12 - Tipos primitivos pt 03 - casting
+[33m8f215b4[m 11 - Tipos primitivos pt 02 - declaração e tamanho em memória
+[33m459ad39[m 10 - Tipos primitivos pt 01 - convenções de variáveis
+[33m484fe61[m 09 - Comentários
+[33mddb8184[m 08 - Organizando o código em pacotes
