@@ -7,18 +7,17 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/*Reference to a static method */
-public class MethodReferencesTest01 {
+public class MethodReferencesTest02 {
     public static void main(String[] args) {
         List<Anime> animes = Arrays.asList(
                 new Anime("Bersek", 43),
                 new Anime("Hellsing", 900),
                 new Anime("Naruto", 500));
 
-        Collections.sort(animes, (o1, o2) -> o1.getTitle().compareTo(o2.getTitle()));
-
-        animes.sort(AnimeComparators::animeByEpisodes);
-
-        System.out.println(animes);
+       AnimeComparators animeComparators = new AnimeComparators();
+       /*Method reference in method non static, referenciando um método de um obj */
+       animes.sort(animeComparators::animeByEpisodesNonStatic);
+       /*Usando lambda */
+       animes.sort((o1, o2) -> AnimeComparators.animeByEpisodes(o1, o2));
     }
 }
