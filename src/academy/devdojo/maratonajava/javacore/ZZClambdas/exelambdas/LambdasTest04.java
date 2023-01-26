@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.ZZClambdas.exelambdas;
+package academy.devdojo.maratonajava.javacore.ZZClambdas.exelambdas;
 
 import java.util.ArrayList;
 import java.util.function.Consumer;

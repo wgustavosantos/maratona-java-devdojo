@@ -1,14 +1,10 @@
-package academy.devdojo.maratonajava.ZZClambdas.test;
+package academy.devdojo.maratonajava.javacore.ZZClambdas.test;
 
-import academy.devdojo.maratonajava.ZZClambdas.dominio.Anime;
-import academy.devdojo.maratonajava.ZZClambdas.dominio.service.AnimeComparators;
+import academy.devdojo.maratonajava.javacore.ZZClambdas.dominio.Anime;
+import academy.devdojo.maratonajava.javacore.ZZClambdas.dominio.service.AnimeComparators;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.BiPredicate;
-import java.util.function.Function;
-import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 //referencia para construtor

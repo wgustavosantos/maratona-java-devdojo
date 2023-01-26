@@ -1,6 +1,4 @@
-package academy.devdojo.maratonajava.ZZClambdas.exelambdas;
-
-import com.sun.source.tree.NewArrayTree;
+package academy.devdojo.maratonajava.javacore.ZZClambdas.exelambdas;
 
 public class LambdasTest01 {
     public static void main(String[] args) {

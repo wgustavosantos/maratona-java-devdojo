@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.ZZClambdas.dominio;
+package academy.devdojo.maratonajava.javacore.ZZClambdas.dominio;
 
 public class Anime {
     private String title;

@@ -1,6 +1,4 @@
-package academy.devdojo.maratonajava.ZZClambdas.exelambdas;
-
-import java.util.function.IntBinaryOperator;
+package academy.devdojo.maratonajava.javacore.ZZClambdas.exelambdas;
 
 @FunctionalInterface
 interface Square {

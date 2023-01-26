@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.ZZClambdas.exelambdas;
+package academy.devdojo.maratonajava.javacore.ZZClambdas.exelambdas;
 
 @FunctionalInterface
 public interface FuncInter1 {
