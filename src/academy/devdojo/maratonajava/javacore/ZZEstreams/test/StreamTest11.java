@@ -40,5 +40,9 @@ public class StreamTest11 {
 
         System.out.println(collect1);
 
+        /*Capturando palavras, concatenand/juntando e separando*/
+        final String collect2 = list.stream().map(LightNovel::getTitle).collect(Collectors.joining(", "));
+        System.out.println("Todos os nomes: " + collect2);
+
     }
 }
