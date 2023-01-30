@@ -23,7 +23,9 @@ public class StreamTest15 {
             new LightNovel("Monogatari", 4.00, Category.ROMANCE)));
     public static void main(String[] args) {
         /*Fazer agrupamento por categoria e ter a estatistica de cada categoria*/
-        final Map<Category, DoubleSummaryStatistics> collect = list.stream().collect(groupingBy(LightNovel::getCategory, Collectors.summarizingDouble(LightNovel::getPrice)));
+        final Map<Category, DoubleSummaryStatistics> collect = list.
+                stream().
+                collect(groupingBy(LightNovel::getCategory, Collectors.summarizingDouble(LightNovel::getPrice)));
         System.out.println(collect);
     }
 }
