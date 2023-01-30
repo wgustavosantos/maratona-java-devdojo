@@ -2,6 +2,7 @@ package academy.devdojo.maratonajava.javacore.ZZEstreams.test;
 
 import academy.devdojo.maratonajava.javacore.ZZEstreams.dominio.Category;
 import academy.devdojo.maratonajava.javacore.ZZEstreams.dominio.LightNovel;
+import academy.devdojo.maratonajava.javacore.ZZEstreams.dominio.Promotion;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,7 +10,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class StreamTest12 {
+import static java.util.stream.Collectors.groupingBy;
+
+public class StreamTest13 {
     private static List<LightNovel> list = new ArrayList<>(List.of(
             new LightNovel("Tensei Shittara", 8.99, Category.FANTASY),
             new LightNovel("Overlord", 10.99, Category.FANTASY),
@@ -22,10 +25,10 @@ public class StreamTest12 {
     public static void main(String[] args) {
         /*Agrupamento*/
         Map<Category, List<LightNovel>> categoryLightNovelMap = new HashMap<>();
-
-        List<LightNovel> fantasy = new ArrayList<>();
-        List<LightNovel> drama = new ArrayList<>();
-        List<LightNovel> romance = new ArrayList<>();
+    
+            List<LightNovel> fantasy = new ArrayList<>();
+            List<LightNovel> drama = new ArrayList<>();
+            List<LightNovel> romance = new ArrayList<>();
 
         for (LightNovel ln : list) {
             switch (ln.getCategory()){
@@ -41,7 +44,17 @@ public class StreamTest12 {
 
         System.out.println(categoryLightNovelMap);
 
-        list.stream().collect(Collectors.groupingBy(LightNovel::getCategory));
+        final Map<Category, List<LightNovel>> collect = list.stream().collect(groupingBy(LightNovel::getCategory));
+
+        list.stream().collect(groupingBy((ln) -> ln.getPrice() < 6 ? Promotion.UNDER_PROMOTION : Promotion.NORMAL_PRICE));
+
+        // Map<Category, Map<Promotion, List<LightNovel>>>
+
+        Map<Category, Map<Promotion, List<LightNovel>>> collect1 = list
+                .stream()
+                .collect(groupingBy(LightNovel::getCategory, groupingBy(ln -> ln.getPrice() < 6 ? Promotion.UNDER_PROMOTION : Promotion.NORMAL_PRICE
+                )));
+        System.out.println(collect1);
 
     }
 }
