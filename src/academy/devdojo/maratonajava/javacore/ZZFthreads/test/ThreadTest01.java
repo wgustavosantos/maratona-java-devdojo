@@ -1,5 +1,6 @@
 package academy.devdojo.maratonajava.javacore.ZZFthreads.test;
 
+
 class ThreadExample extends Thread {
     private final char c;
 
@@ -51,5 +52,6 @@ public class ThreadTest01 {
         t2.start();
         t3.start();
         t4.start();
+        System.out.println("############################# "+Thread.currentThread().getName());
     }
 }
